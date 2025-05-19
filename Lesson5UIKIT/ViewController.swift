@@ -70,7 +70,7 @@ extension ViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
         cell.accessoryType = .disclosureIndicator
-        
+       
         var config = cell.defaultContentConfiguration()
 
         var localArray: [TableItem] = []
